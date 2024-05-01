@@ -1,0 +1,65 @@
+
+#root {
+  --primary-color: #636363;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.auth-section {
+  padding: 0.5rem;
+  width: 100%;
+  /* height: 25vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-section form {
+  background-color: var(--primary-color);
+  width: fit-content;
+  height: fit-content;
+  padding: 0.5rem;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.auth section form label {
+  display: flex;
+  text-align: left;
+  justify-content: left;
+}
+
+.auth-section form .form-element {
+  all: unset;
+  margin: 1rem;
+  /* border-radius: 5px; */
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  font-weight: bold;
+}
+
+.auth-section form .form-element::placeholder {
+  color: white;
+}
+
+.auth-section form button {
+  margin-top: 10px;
+}
+
+#status-text-parent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#status-text-parent #status-text {
+  position: absolute;
+  /* left: 50%; */
+  /* right: 50%; */
+}
